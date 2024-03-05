@@ -1,5 +1,4 @@
 import React from "react";
-import { BsChatDots } from "react-icons/bs";
 import { LiaFacebookSquare } from "react-icons/lia";
 import { FiGithub } from "react-icons/fi";
 import { SlSocialLinkedin } from "react-icons/sl";
@@ -17,7 +16,7 @@ export default function Contact() {
           </div>
           <div className=" w-full flex   gap-4 items-center">
             <FiGithub className=" size-6 text-gray-600 sm:size-5 mr-2" />
-            <p className=" text-xs text-gray-600">Mohamed Rimsan</p>
+            <p className=" text-xs text-gray-600">Rimsan00</p>
           </div>
           <div className=" w-full flex gap-4 items-center">
             <SlSocialLinkedin className=" size-6 text-gray-600 sm:size-4 mr-3" />

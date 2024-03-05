@@ -40,7 +40,8 @@ export default function CourseCertifications() {
               Entry-Level Cybersecurity Training
             </p>
             <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicingctetur
+              Foundation for cybersecurity roles, covering threats, defenses,
+              and risk management.
             </p>
           </div>
         </div>
@@ -52,7 +53,7 @@ export default function CourseCertifications() {
               Penetration Testing and Ethical Hacking
             </p>
             <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
-              Lorem ipsum dolor sit amet consectetur
+              Teaches how to identify and exploit vulnerabilities in IT systems.
             </p>
           </div>
           <div className=" w-2/4 sm:w-1/4">
@@ -82,7 +83,8 @@ export default function CourseCertifications() {
               FCA - FortiGate 7.4 Operator Self-Paced
             </p>
             <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
-              Lorem ipsum dolor sit amet consectetur
+              Learn to secure networks using FortiGate’s security and networking
+              features.
             </p>
           </div>
         </div>
@@ -94,7 +96,7 @@ export default function CourseCertifications() {
               FCF - Introduction to the Threat Landscape 2.0 Self-Paced
             </p>
             <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicingctetur
+              Overview of network threats and principles of cybersecurity.
             </p>
           </div>
           <div className=" w-2/4 sm:w-1/4">
@@ -124,7 +126,7 @@ export default function CourseCertifications() {
               FCP - Azure Cloud Security 7.4 Administrator Self-Paced
             </p>
             <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
-              Lorem ipsum dolor sit amet consectetur adipisicingctetur
+              Learn to manage Azure cloud traffic with Fortinet solutions.
             </p>
           </div>
         </div>
@@ -136,7 +138,8 @@ export default function CourseCertifications() {
               Official ISC2 CC Online Self-Paced Training - 1M
             </p>
             <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-400">
-              fam.rimsan@gmail.com
+              Free training for entry-level cybersecurity roles and
+              certification
             </p>
           </div>
           <div className=" w-2/4 sm:w-1/4">
