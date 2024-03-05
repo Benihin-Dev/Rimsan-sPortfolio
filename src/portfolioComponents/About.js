@@ -53,10 +53,12 @@ export default function About() {
             </p>
           </div>
           <div className=" text-xs flex gap-4 pt-5">
-            <button className=" px-5 border rounded-md hover:bg-[#7c2ae8] bg-[#7846ba] text-white py-2">
-              {" "}
-              Download CV
-            </button>
+            <a href="https://drive.google.com/file/d/1R51vWWvUqaNhYh29qQqUNVX-78gOf-Mx/view?usp=sharing">
+              <button className=" px-5 border rounded-md hover:bg-[#7c2ae8] bg-[#7846ba] text-white py-2">
+                Download CV
+              </button>
+            </a>
+
             <button className=" px-5 text-[#7c2ae8] rounded-md border border-[#7c2ae8] hover:text-white hover:bg-[#7c2ae8] py-2">
               <Link
                 to="project-section"
@@ -73,10 +75,12 @@ export default function About() {
             className="mt-7 flex gap-5
           "
           >
-            <a href="linkedin.com/in/mohamed-rimsan-967403288">
+            <a href="https://linkedin.com/in/mohamed-rimsan-967403288">
               <BiLogoLinkedin className="cursor-pointer border border-gray-900 hover:border-[#7c2ae8] size-7 rounded-full bg-[#7c2ae8] p-[4px]  text-gray-100" />
             </a>
-            <RiFacebookFill className="cursor-pointer border border-gray-900 hover:border-[#7c2ae8] size-7 rounded-full bg-[#7c2ae8] p-[4px]  text-gray-100" />
+            <a href="https://www.facebook.com/mohamed.rimzan.9250595?mibextid=ZbWKwL">
+              <RiFacebookFill className="cursor-pointer border border-gray-900 hover:border-[#7c2ae8] size-7 rounded-full bg-[#7c2ae8] p-[4px]  text-gray-100" />
+            </a>
             <div className=" relative">
               <PiWhatsappLogoBold
                 onMouseEnter={() => {
