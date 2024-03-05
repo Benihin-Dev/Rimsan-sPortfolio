@@ -1,113 +1,150 @@
 import React from "react";
-import cretificate from "../img/cretificate.png";
+import cretificate1 from "../img/cretificate1.PNG";
+import cretificate2 from "../img/cretificate2.PNG";
+import cretificate3 from "../img/cretificate3.PNG";
+import cretificate4 from "../img/cretificate4.PNG";
+import cretificate5 from "../img/cretificate5.PNG";
+import cretificate6 from "../img/cretificate6.PNG";
 import { useInView } from "react-intersection-observer";
 
 export default function CourseCertifications() {
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.25,
+    // triggerOnce: true,
   });
   return (
-    <div className=" w-11/12 sm:w-4/5 mx-auto sm:px-5 my-20">
+    <div className={` w-11/12 sm:w-4/5 mx-auto sm:px-5 my-20`}>
       <h1 className=" w-full text-end text-gray-500 px-4 font-medium pb-5">
         <span className=" text-[#773ec2] ">| Courses</span> and Certifications
       </h1>
-      <div className=" w-11/12 sm:w-8/12 space-y-5 mx-auto mt-5">
+      <div
+        ref={ref}
+        className={`animated-component ${
+          inView ? "is-visible" : ""
+        } w-11/12 sm:w-6/12 space-y-5 mx-auto mt-5`}
+      >
         <div
-          ref={ref}
-          className={`animated-component ${
-            inView ? "is-visible" : ""
-          } w-full bg-[#773ec2ab]   border border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
+          className={`w-full bg-[#ffffff]   border-2 border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
         >
           <div className=" w-2/4 sm:w-1/4">
             <a href="https://github.com">
               <img
-                src={cretificate}
+                src={cretificate1}
                 alt=""
-                className=" w-full h-full border border-gray-300"
+                className=" object-cover w-full h-full border-r border-[#773ec2ab]"
               />
             </a>
           </div>
-          <div className=" w-3/4">
-            <p className=" text-white py-2 w-full text-center">
-              Network Engineer
+          <div className=" w-3/4 sm:px-5">
+            <p className="   py-2 w-full text-center">
+              Entry-Level Cybersecurity Training
             </p>
-            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-300">
+            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicingctetur
-              adipisicing
             </p>
           </div>
         </div>
         <div
-          ref={ref}
-          className={`animated-component ${
-            inView ? "is-visible" : ""
-          } w-full bg-[#773ec2ab]   border border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
+          className={` w-full bg-[#ffffff]   border-2 border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
         >
-          <div className=" w-3/4">
-            <p className=" text-white py-2 w-full text-center">
-              Network Engineer
+          <div className=" w-3/4 sm:px-5">
+            <p className="   py-2 w-full text-center">
+              Penetration Testing and Ethical Hacking
             </p>
-            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicingctetur
-              adipisicing
+            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
+              Lorem ipsum dolor sit amet consectetur
             </p>
           </div>
           <div className=" w-2/4 sm:w-1/4">
             <a href="https://github.com">
               <img
-                src={cretificate}
+                src={cretificate2}
                 alt=""
-                className=" w-full h-full border border-gray-300"
+                className=" object-cover  w-full h-full border-l border-[#773ec2ab]"
               />
             </a>
           </div>
         </div>
         <div
-          ref={ref}
-          className={`animated-component ${
-            inView ? "is-visible" : ""
-          } w-full bg-[#773ec2ab]   border border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
+          className={`w-full bg-[#ffffff]   border-2 border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
         >
           <div className=" w-2/4 sm:w-1/4">
             <a href="https://github.com">
               <img
-                src={cretificate}
+                src={cretificate3}
                 alt=""
-                className=" w-full h-full border border-gray-300"
+                className=" object-cover  w-full h-full border-r border-[#773ec2ab]"
               />
             </a>
           </div>
-          <div className=" w-3/4">
-            <p className=" text-white py-2 w-full text-center">
-              Network Engineer
+          <div className=" w-3/4 sm:px-5">
+            <p className="   py-2 w-full text-center">
+              FCA - FortiGate 7.4 Operator Self-Paced
             </p>
-            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-300">
-              Lorem ipsum dolor sit amet consectetur adipisicingctetur
-              adipisicing
+            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
+              Lorem ipsum dolor sit amet consectetur
             </p>
           </div>
         </div>
         <div
-          ref={ref}
-          className={`animated-component ${
-            inView ? "is-visible" : ""
-          } w-full bg-[#773ec2ab]   border border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
+          className={` w-full bg-[#ffffff]   border-2 border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
         >
-          <div className=" w-3/4">
-            <p className=" text-white py-2 w-full text-center">
-              Network Engineer
+          <div className=" w-3/4 sm:px-5">
+            <p className="  py-2 w-full text-center">
+              FCF - Introduction to the Threat Landscape 2.0 Self-Paced
             </p>
-            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-300">
+            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
               Lorem ipsum dolor sit amet consectetur adipisicingctetur
-              adipisicing
             </p>
           </div>
           <div className=" w-2/4 sm:w-1/4">
             <a href="https://github.com">
               <img
-                src={cretificate}
+                src={cretificate4}
                 alt=""
-                className=" w-full h-full border border-gray-300"
+                className=" object-cover w-full h-full border-l border-[#773ec2ab]"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          className={`w-full bg-[#ffffff]   border-2 border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
+        >
+          <div className=" w-2/4 sm:w-1/4">
+            <a href="https://github.com">
+              <img
+                src={cretificate5}
+                alt=""
+                className=" object-cover  w-full h-full border-r border-[#773ec2ab]"
+              />
+            </a>
+          </div>
+          <div className=" w-3/4 sm:px-5">
+            <p className=" py-2 w-full text-center">
+              FCP - Azure Cloud Security 7.4 Administrator Self-Paced
+            </p>
+            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-500">
+              Lorem ipsum dolor sit amet consectetur adipisicingctetur
+            </p>
+          </div>
+        </div>
+        <div
+          className={` w-full bg-[#ffffff]   border-2 border-[#773ec2ab]  flex shadow-md hover:shadow-lg rounded-lg overflow-hidden`}
+        >
+          <div className=" w-3/4 sm:px-5">
+            <p className="  py-2 w-full text-center">
+              Official ISC2 CC Online Self-Paced Training - 1M
+            </p>
+            <p className="sm:px-5 text-sm w-full  pb-3 text-center text-gray-400">
+              fam.rimsan@gmail.com
+            </p>
+          </div>
+          <div className=" w-2/4 sm:w-1/4">
+            <a href="https://github.com">
+              <img
+                src={cretificate6}
+                alt=""
+                className=" object-cover  w-full h-full border-l border-[#773ec2ab]"
               />
             </a>
           </div>
